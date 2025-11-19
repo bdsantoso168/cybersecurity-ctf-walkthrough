@@ -1,0 +1,102 @@
+# Python Package Requirements
+# Install with: pip3 install -r requirements.txt
+
+# Standard library modules (no installation needed)
+# - json
+# - csv
+# - subprocess
+# - datetime
+# - pathlib
+# - typing
+# - re
+
+# No external Python packages required!
+# All scripts use Python standard library only
+
+# Optional packages for enhanced functionality:
+# requests>=2.31.0        # For HTTP requests (if needed)
+# pyyaml>=6.0            # For YAML config parsing (if needed)
+
+# ═══════════════════════════════════════════════════════════════════════
+# SAVE INSTRUCTIONS
+# ═══════════════════════════════════════════════════════════════════════
+
+SAVE_INSTRUCTIONS = """
+╔═══════════════════════════════════════════════════════════════════════╗
+║                    FILE SAVE INSTRUCTIONS - PART 6                    ║
+╚═══════════════════════════════════════════════════════════════════════╝
+
+This file contains all configuration files and setup scripts.
+To save them to your repository:
+
+1. CREATE DIRECTORIES:
+   mkdir -p configs/wordlists
+   mkdir -p tools
+
+2. SAVE EACH FILE:
+
+   Configuration Files:
+   ────────────────────────────────────────────────────────────────────
+   
+   File 1: configs/network_config.yaml
+   Copy the content from the YAML section at the top
+   
+   File 2: configs/targets.json
+   Copy the JSON configuration
+   
+   File 3: configs/wordlists/common_passwords.txt
+   Copy the common passwords list
+   
+   File 4: configs/wordlists/custom_wordlist.txt
+   Copy the custom wordlist (customize for your needs)
+   
+   File 5: configs/wordlists/numeric_patterns.txt
+   Copy the numeric patterns
+
+   Setup Scripts:
+   ────────────────────────────────────────────────────────────────────
+   
+   File 6: tools/setup_environment.sh
+   Copy the setup script and make executable:
+   chmod +x tools/setup_environment.sh
+   
+   File 7: tools/install_dependencies.sh
+   Copy the dependency installer and make executable:
+   chmod +x tools/install_dependencies.sh
+   
+   File 8: tools/requirements.txt
+   Copy the Python requirements file
+
+3. RUN SETUP:
+   
+   # Setup directory structure
+   bash tools/setup_environment.sh
+   
+   # Install dependencies
+   bash tools/install_dependencies.sh
+   
+   # Install Python packages (if any added)
+   pip3 install -r tools/requirements.txt
+
+4. CUSTOMIZE:
+   
+   Edit configs/network_config.yaml with your network details
+   Edit configs/targets.json with your target information
+   Add custom passwords to configs/wordlists/custom_wordlist.txt
+
+═══════════════════════════════════════════════════════════════════════
+
+Progress:
+  ✓ Part 1: Network Discovery (COMPLETE)
+  ✓ Part 2: Remote Access (COMPLETE)
+  ✓ Part 3: File Operations (COMPLETE)
+  ✓ Part 4: Password Cracking (COMPLETE)
+  ✓ Part 5: Network Mapping (COMPLETE)
+  ✓ Part 6: Utilities (COMPLETE)
+  ✓ Part 7: Configuration & Setup (THIS FILE - COMPLETE)
+  ⏳ Part 8: Documentation Files (FINAL PART - NEXT)
+
+═══════════════════════════════════════════════════════════════════════
+"""
+
+print(SAVE_INSTRUCTIONS)
