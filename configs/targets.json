@@ -1,0 +1,130 @@
+{
+  "competition_info": {
+    "name": "Cybersecurity Competition 2025",
+    "date": "2025-11-18",
+    "team": "Team Name",
+    "total_points": 150
+  },
+  "network": {
+    "subnet": "192.168.0.0/24",
+    "gateway": "192.168.0.1",
+    "scan_range": {
+      "start": "192.168.0.1",
+      "end": "192.168.0.254"
+    }
+  },
+  "targets": [
+    {
+      "id": "system_a",
+      "hostname": "SYSTEM-A",
+      "ip": "192.168.0.XXX",
+      "os": "Windows 10",
+      "services": {
+        "rdp": {
+          "port": 3389,
+          "enabled": true
+        }
+      },
+      "tasks": [1, 2, 3, 4],
+      "points": 80,
+      "notes": "Primary target system - Initial access"
+    },
+    {
+      "id": "system_b",
+      "hostname": "SYSTEM-B",
+      "ip": "192.168.0.XXX",
+      "os": "Windows 10",
+      "services": {
+        "rdp": {
+          "port": 3389,
+          "enabled": true
+        }
+      },
+      "tasks": [5, 6, 7, 8],
+      "points": 50,
+      "notes": "Secondary target - Requires credential rotation"
+    }
+  ],
+  "tasks": [
+    {
+      "number": 1,
+      "name": "Remote Connect to SYSTEM-A",
+      "points": 10,
+      "category": "Initial Access",
+      "system": "system_a",
+      "description": "Establish RDP connection to primary target"
+    },
+    {
+      "number": 2,
+      "name": "Find and Rename Team Folder",
+      "points": 20,
+      "category": "Initial Access",
+      "system": "system_a",
+      "description": "Locate team folder and rename appropriately"
+    },
+    {
+      "number": 3,
+      "name": "Find IP Address and Save",
+      "points": 20,
+      "category": "Initial Access",
+      "system": "system_a",
+      "description": "Extract and document IP configuration"
+    },
+    {
+      "number": 4,
+      "name": "Find 6-Digit Number",
+      "points": 30,
+      "category": "Initial Access",
+      "system": "system_a",
+      "description": "Locate hidden file with credentials"
+    },
+    {
+      "number": 5,
+      "name": "Connect to SYSTEM-B",
+      "points": 10,
+      "category": "Lateral Movement",
+      "system": "system_b",
+      "description": "Use discovered credentials to access second system"
+    },
+    {
+      "number": 6,
+      "name": "Network Mapping",
+      "points": 10,
+      "category": "Reconnaissance",
+      "system": "system_b",
+      "description": "Create comprehensive network topology map"
+    },
+    {
+      "number": 7,
+      "name": "Crack 'Cyber' File",
+      "points": 15,
+      "category": "Password Cracking",
+      "system": "system_b",
+      "description": "Decrypt password-protected archive"
+    },
+    {
+      "number": 8,
+      "name": "Crack 'Security' File",
+      "points": 15,
+      "category": "Password Cracking",
+      "system": "system_b",
+      "description": "Crack harder encrypted archive using tools"
+    },
+    {
+      "number": 9,
+      "name": "Password Validation",
+      "points": 10,
+      "category": "Validation",
+      "system": null,
+      "description": "Combine discovered numbers for validation"
+    },
+    {
+      "number": 10,
+      "name": "Final Submission",
+      "points": 10,
+      "category": "Completion",
+      "system": null,
+      "description": "Submit all deliverables and verify completion"
+    }
+  ]
+}
