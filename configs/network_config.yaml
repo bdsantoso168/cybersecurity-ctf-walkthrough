@@ -1,0 +1,52 @@
+---
+# Network Configuration for Competition Environment
+
+network:
+  name: "Competition Network"
+  subnet: "192.168.0.0/24"
+  gateway: "192.168.0.1"
+  dns_servers:
+    - "192.168.0.1"
+    - "8.8.8.8"
+
+# Target Systems (anonymized)
+target_systems:
+  system_a:
+    hostname: "SYSTEM-A"
+    ip_address: "192.168.0.XXX"
+    os: "Windows 10"
+    rdp_port: 3389
+    description: "Primary target - Initial access point"
+    tasks: [1, 2, 3, 4]
+    
+  system_b:
+    hostname: "SYSTEM-B"
+    ip_address: "192.168.0.XXX"
+    os: "Windows 10"
+    rdp_port: 3389
+    description: "Secondary target - Lateral movement"
+    tasks: [5, 6, 7, 8]
+
+# Scan Configuration
+scan_settings:
+  ping_timeout: 2
+  ping_count: 2
+  arp_scan_interval: 5
+  max_concurrent_scans: 50
+  
+# Competition Settings
+competition:
+  name: "University Cybersecurity Competition 2025"
+  date: "2025-11-18"
+  duration_minutes: 180
+  total_points: 150
+  
+# Tool Settings
+tools:
+  john_the_ripper:
+    wordlist_path: "./configs/wordlists/"
+    session_name: "competition_crack"
+    
+  network_scanner:
+    output_format: "json"
+    save_path: "./results/"
