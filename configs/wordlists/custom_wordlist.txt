@@ -1,0 +1,53 @@
+# Competition-specific wordlist (anonymized)
+# Add institution-specific terms here
+
+# Institution variations
+university
+University
+UNIVERSITY
+college
+College
+COLLEGE
+
+# Competition-related
+cyber
+Cyber
+CYBER
+security
+Security
+SECURITY
+competition
+Competition
+COMPETITION
+
+# Ranks/Titles
+sargent
+Sargent
+SARGENT
+captain
+Captain
+lieutenant
+Lieutenant
+
+# Years
+1906
+2020
+2021
+2022
+2023
+2024
+2025
+
+# Combined patterns
+cyber1906
+Cyber1906
+security1906
+Security1906
+cyber2025
+Security2025
+
+# Common admin
+admin
+administrator
+user
+default
