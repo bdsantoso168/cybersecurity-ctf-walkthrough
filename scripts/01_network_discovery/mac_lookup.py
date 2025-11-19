@@ -3,7 +3,7 @@
 MAC Address Vendor Lookup
 Identifies device manufacturers from MAC addresses
 """
-
+ 
 import re
 import requests
 import json
