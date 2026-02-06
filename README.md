@@ -1,4 +1,4 @@
-<img width="2747" height="1372" alt="CyberSecurity Competition" src="https://github.com/user-attachments/assets/002c7e8e-d351-4ae7-af33-3138818d13ea" /># 🔐 Cybersecurity Competition 2025 - Educational Documentation
+# 🔐 Cybersecurity Competition 2025 - Educational Documentation
 
 > **⚠️ DISCLAIMER**: This repository is for **educational and personal project purposes only**. All sensitive information has been anonymized. This documentation demonstrates cybersecurity concepts and techniques learned during an academic competition.
 <img width="2747" height="1372" alt="CyberSecurity Competition" src="https://github.com/user-attachments/assets/55cd6cf4-e77f-4e28-815a-539758e947c0" />
