@@ -40,8 +40,6 @@ This documentation covers a comprehensive cybersecurity competition that tested 
 - **Environment:** Multi-computer network scenario
 - **Platform:** Windows systems accessed via Remote Desktop from macOS
 
----
-
 ## 🏗️ Competition Structure
 
 ```
@@ -100,6 +98,10 @@ Target Systems:
 ├── SYSTEM-B: 192.168.0.XXX
 └── Additional devices discovered via scanning
 ```
+
+---
+## Award 
+<img width="2200" height="1700" alt="Suffolk University Cybersecurity Competition - 3rd Place Award" src="https://github.com/user-attachments/assets/18884c1e-1571-4bbe-aab4-bd2e0afc9b33" />
 
 ---
 
